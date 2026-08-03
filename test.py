@@ -1,6 +1,6 @@
 print("Hello, Sehrish")
-#output Sehrish
+#output Hello, Sehrish
 
 name = Sehrish 
 print("Name =", name)
-#output Nmae = Sehrish
+#output Name = Sehrish
