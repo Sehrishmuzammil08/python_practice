@@ -9,6 +9,22 @@
 
 * print statement
 
+* Arithmetic Operations
+
+* Conditional statements 
+
+* Match case
+
+* While loop
+
+* For loop
+
+* Nested loops
+
+* Functions
+
+* string
+
 
 # 🎯 Goal
 
