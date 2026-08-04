@@ -2,7 +2,7 @@
 
 * Welcome to my Python Practice Repository! 
 
-* I'm learning Python from basics to advanced. this repository contains collection of python practice programs & assignments (Cyber Security)
+* I'm learning Python from basics to advanced. This repository contains collection of python practice programs & assignments (Cyber Security)
   
 
 # 📌 Topics Covered
