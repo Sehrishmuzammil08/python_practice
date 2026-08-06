@@ -1,11 +1,11 @@
-#  Python Practice Repository 
+## Python Practice Repository 
 
 * Welcome to my Python Practice Repository! 
 
 * I'm learning Python from basics to advanced. This repository contains collection of python practice programs & assignments (Cyber Security).
   
 
-# 📌 Topics Covered
+## 📌 Topics Covered
 
 * print statement
 
@@ -26,6 +26,12 @@
 * strings
 
 
-# 🎯 Goal
+## 🎯 Goal
 
 To build a strong foundation in Python and practice daily coding.
+
+## Language
+* Python 3
+
+## Author
+* Sehrish Muzammil
