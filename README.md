@@ -34,4 +34,9 @@ To build a strong foundation in Python and practice daily coding.
 * Python 3
 
 ## Author
-* Sehrish Muzammil
+
+* **Sehrish Muzammil**
+
+* 🎓 BS Cyber Security Student
+
+* 🌐 GitHub: https://github.com/Sehrishmuzammil08
