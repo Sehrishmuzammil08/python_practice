@@ -168,7 +168,7 @@ Programming is used in:
 
 ---
 
-# 📝 Summary
+#  Summary
 
 - Programming means giving instructions to a computer.
 - A program is a set of instructions written in a programming language.
