@@ -40,3 +40,5 @@ To build a strong foundation in Python and practice daily coding.
 * 🎓 BS Cyber Security Student
 
 * 🌐 GitHub: https://github.com/Sehrishmuzammil08
+
+* Repository: https://github.com/Sehrishmuzammil08/python_practice
