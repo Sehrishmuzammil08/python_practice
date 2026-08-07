@@ -33,6 +33,12 @@ To build a strong foundation in Python and practice daily coding.
 ## Language
 * Python 3
 
+## Technologies
+
+-  VS Code
+-  Google Colab
+-  GitHub
+
 ## Author
 
 * **Sehrish Muzammil**
