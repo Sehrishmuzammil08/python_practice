@@ -110,6 +110,21 @@ as      break     True      except    in
 ```
 
 ---
+## Type Casting — converting one data type into another.
+
+- Types:
+
+**Implicit Casting (Automatic)**
+
+Done by the compiler/interpreter
+No data loss (usually smaller → larger type)
+Example: int → float
+
+**Explicit Casting (Manual)**
+
+Done by the programmer
+May cause data loss
+Example: float → int (decimal part removed)
 
 ##  Core Data Types
 
