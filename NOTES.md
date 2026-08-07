@@ -29,7 +29,8 @@ Programming helps us:
 -  Develop software, websites, and mobile apps
 -  Create games
 -  Control hardware and embedded systems
-
+-  Without programming, computers would be useless machines.
+  
 ---
 
 ## 📌 4. What is a Programming Language?
