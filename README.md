@@ -3,13 +3,31 @@
 * Welcome to my Python Practice Repository! 
 
 * I'm learning Python from basics to advanced. This repository contains collection of python practice programs & assignments (Cyber Security).
-  
+
+## Repository Structure
+
+**Codes/**
+
+  - codes of all topics
+   
+**NOTES/**
+
+   - Theory notes of all topics
+
+**FORMULAS.md**
+
+   - Quick formula reference
+
+**README.md**
+
+   - Repository overview
+
 
 ## 📌 Topics Covered
 
 * print statement
 
-* Arithmetic Operations
+* Operations
 
 * Conditional statements 
 
