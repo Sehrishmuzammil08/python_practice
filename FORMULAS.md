@@ -36,7 +36,7 @@ Where:
 
 - where r is radius
 
-## Temperature unit conversion  
+## Temperature unit Conversion  
 
 **Celsius → Fahrenheit**
 
