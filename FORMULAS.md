@@ -1,3 +1,5 @@
+# Python Practice Formulas
+
 ## Average:
 
 - Average = Sum of values / Number of values
@@ -26,13 +28,15 @@ Where:
 - Remaining Minutes = Minutes % 60
 
 
-## 3. Circle
+## Circle
 
 - Area = π × radius × radius
 
 - Circumference = 2 × π × radius
 
-## Temprature unit conversion  
+- where r is radius
+
+## Temperature unit conversion  
 
 **Celsius → Fahrenheit**
 
