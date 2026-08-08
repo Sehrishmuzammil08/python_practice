@@ -1,4 +1,14 @@
 # ==========================================
+#Print Statement
+# ==========================================
+print("Hello, Sehrish")
+#0utput: Hello, Sehrish
+
+name = "Sehrish"
+print("My name is", name)
+#0utput: My name is Sehrish
+
+# ==========================================
 # PROGRAM 1: ADD TWO NUMBERS
 # ==========================================
 #Input:
