@@ -69,6 +69,11 @@ Check whether two variables refer to the **same object** in memory.
 | `is` | Checks if both refer to the same object | `a = [1,2]; b = a; a is b` | `True` |
 | `is not` | Checks if they refer to different objects | `a = [1,2]; b = [1,2]; a is not b` | `True` |
 
+
+a == b   # checks values
+
+a is b   # checks same object
+
 ---
 
 ## 6. Membership Operators
