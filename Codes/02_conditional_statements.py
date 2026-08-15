@@ -486,3 +486,140 @@ else:  # Fahrenheit
         print("Normal temperature range")
     else:
         print("HOT! Temperature above 86°F")
+
+
+
+# ------------------------------------------------------------
+# 33. Time Converter
+# Converts seconds into hours, minutes, and seconds
+# ------------------------------------------------------------
+total_sec = int(input("Enter time in seconds: "))
+
+if total_sec < 0:
+    print("Error: Time cannot be negative")
+else:
+    hours = total_sec // 3600
+    minutes = (total_sec % 3600) // 60
+    seconds = total_sec % 60
+
+    print("Time =", f"{hours} hours, {minutes} minutes, {seconds} seconds")
+
+
+# ------------------------------------------------------------
+# 34. Currency Converter
+# ------------------------------------------------------------
+print("=" * 50)
+print("             CURRENCY CONVERTER")
+print("=" * 50)
+
+inr = float(input("Enter amount in INR (Indian Rupee): "))
+
+print("-" * 50)
+print("Select target currency:")
+print("1. USD (US Dollar)")
+print("2. EUR (Euro)")
+print("3. GBP (British Pound)")
+print("4. JPY (Japanese Yen)")
+print("-" * 50)
+
+choice = int(input("Enter your choice (1-4): "))
+
+if choice == 1:
+    converted = inr / 83.50
+    print(f"INR {inr:.2f} = {converted:.2f} USD")
+    print("Exchange Rate: 1 USD = 83.50 INR")
+
+elif choice == 2:
+    converted = inr / 90.20
+    print(f"INR {inr:.2f} = {converted:.2f} EUR")
+    print("Exchange Rate: 1 EUR = 90.20 INR")
+
+elif choice == 3:
+    converted = inr / 105.30
+    print(f"INR {inr:.2f} = {converted:.2f} GBP")
+    print("Exchange Rate: 1 GBP = 105.30 INR")
+
+elif choice == 4:
+    converted = inr / 0.56
+    print(f"INR {inr:.2f} = {converted:.2f} JPY")
+    print("Exchange Rate: 1 JPY = 0.56 INR")
+
+else:
+    print("Invalid choice!")
+
+
+# ------------------------------------------------------------
+# 35. Profit & Loss Calculator
+# ------------------------------------------------------------
+print("=" * 50)
+print("          PROFIT & LOSS CALCULATOR")
+print("=" * 50)
+
+cp = float(input("Enter cost price: "))
+sp = float(input("Enter selling price: "))
+
+if sp > cp:
+    profit = sp - cp
+    profit_percent = (profit / cp) * 100
+
+    print(f"PROFIT: {profit:.2f}")
+    print(f"Profit Percentage: {profit_percent:.2f}%")
+
+elif cp > sp:
+    loss = cp - sp
+    loss_percent = (loss / cp) * 100
+
+    print(f"LOSS: {loss:.2f}")
+    print(f"Loss Percentage: {loss_percent:.2f}%")
+
+else:
+    print("No profit, no loss")
+
+
+# ------------------------------------------------------------
+# 36. Employee Salary Slip
+# Calculates allowances, deductions, and net salary
+# ------------------------------------------------------------
+print("=" * 50)
+print("           EMPLOYEE SALARY SLIP")
+print("=" * 50)
+
+E_name = input("Employee Name: ")
+E_id = input("Employee ID: ")
+month = input("Month: ")
+B_salary = float(input("Basic Salary: "))
+
+DA = B_salary * 40 / 100
+HRA = B_salary * 20 / 100
+PF = B_salary * 12 / 100
+
+if B_salary > 25000:
+    tax = B_salary * 10 / 100
+else:
+    tax = 0
+
+G_salary = B_salary + DA + HRA
+total_deduction = PF + tax
+N_salary = G_salary - total_deduction
+
+print("=" * 50)
+print("Employee Name:", E_name)
+print("Employee ID:", E_id)
+print("Month:", month)
+print("=" * 50)
+
+print("EARNINGS")
+print("Basic Salary:", B_salary)
+print("Dearness Allowance 40%:", DA)
+print("House Rent Allowance 20%:", HRA)
+print("Gross Salary:", G_salary)
+
+print("=" * 50)
+print("DEDUCTIONS")
+print("Provident Fund 12%:", PF)
+print("Income Tax 10%:", tax)
+print("Total Deductions:", total_deduction)
+
+print("=" * 50)
+print("NET SALARY:", N_salary)
+print("=" * 50)
