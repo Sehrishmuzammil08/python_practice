@@ -25,8 +25,14 @@
 
 ## 📌 Topics Covered
 
-* print statement
+* Programming Introduction(Notes)
 
+* Python Introduction(Notes)
+
+* Data Types(Notes)
+
+* print statement
+  
 * Operations
 
 * Conditional statements 
