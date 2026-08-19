@@ -1,10 +1,4 @@
-# ======================================================================
 # PYTHON CONDITIONAL STATEMENTS - PRACTICE PROGRAMS
-# ======================================================================
-# Topics:
-# if, if-else, elif, match-case, logical operators, nested if
-# ======================================================================
-
 
 # ======================================================================
 # SECTION A: EASY
@@ -180,7 +174,6 @@ else:
 
 # ------------------------------------------------------------
 # 11. Admission and Division System
-# Combines OR Operator + Nested Grading System
 # ------------------------------------------------------------
 marks = int(input("Enter marks: "))
 sports = input("Sports quota? (yes/no): ").lower()
@@ -291,7 +284,6 @@ else:
 
 # ------------------------------------------------------------
 # 18. Login System
-# Nested if
 # ------------------------------------------------------------
 username = input("Enter username: ")
 password = input("Enter password: ")
@@ -327,7 +319,7 @@ else:
 
 # ------------------------------------------------------------
 # 20. Loan Approval
-# Income AND Age
+# Income AND Age Conditions
 # ------------------------------------------------------------
 income = int(input("Enter monthly income: "))
 age = int(input("Enter age: "))
