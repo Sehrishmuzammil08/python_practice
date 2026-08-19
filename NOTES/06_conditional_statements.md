@@ -151,7 +151,7 @@ Tuesday
 
 ---
 
-## 📊 Comparison of Conditional Statements
+##  Comparison of Conditional Statements
 
 | Statement | Purpose |
 |-----------|---------|
@@ -180,7 +180,7 @@ Conditional statements help programs make decisions. In many real-world problems
 
 ---
 
-## Part 1: Nested Conditional Statements
+##  Nested Conditional Statements
 
 ### What are Nested Conditional Statements?
 
