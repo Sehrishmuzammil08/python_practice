@@ -29,29 +29,13 @@
 
 * Python Introduction(Notes)
 
-* Basic Program Structure(Notes)
+* Basic Program Structure(NOTES + Coodes)
 
-* Variables and Data Types(Notes)
+  * Variables and Data Types
 
-* Operators in Python
+  * Operators in Python
 
-* print statement
-  
-* Operations
-
-* Conditional statements 
-
-* Match case
-
-* While loop
-
-* For loop
-
-* Nested loops
-
-* Functions
-
-* strings
+* Conditional statements(NOTES + Coodes) 
 
 
 ## 🎯 Goal
