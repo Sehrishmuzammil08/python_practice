@@ -29,7 +29,11 @@
 
 * Python Introduction(Notes)
 
-* Data Types(Notes)
+* Basic Program Structure(Notes)
+
+* Variables and Data Types(Notes)
+
+* Operators in Python
 
 * print statement
   
