@@ -163,3 +163,138 @@ Python:
 ## ATM Daily Limit
 
 - Remaining Daily Limit = Daily Limit - Amount Already Withdrawn
+
+
+
+# Formulas used in loops
+
+## Sum of First N Natural Numbers
+
+- Sum = n × (n + 1) / 2
+
+Example:
+- For n = 5:
+  Sum = 5 × 6 / 2 = 15
+
+Python:
+- total += i
+
+
+## Factorial
+
+- n! = n × (n - 1) × (n - 2) × ... × 1
+
+Example:
+- 5! = 5 × 4 × 3 × 2 × 1 = 120
+
+Special Case:
+- 0! = 1
+
+Python:
+- factorial *= i
+
+
+## Sum of Digits
+
+- Sum of Digits = digit1 + digit2 + digit3 + ...
+
+Python:
+- Last Digit = Number % 10
+- Remove Last Digit = Number // 10
+
+Example:
+- 1234 → 1 + 2 + 3 + 4 = 10
+
+
+## Counting Digits
+
+To remove the last digit:
+
+- Number = Number // 10
+
+Each time the last digit is removed:
+- Count = Count + 1
+
+Example:
+- 1234 → 123 → 12 → 1 → 0
+- Number of digits = 4
+
+
+## Last Digit
+
+- Last Digit = Number % 10
+
+Example:
+- 1234 % 10 = 4
+- 567 % 10 = 7
+
+
+## Remove Last Digit
+
+- Remaining Number = Number // 10
+
+Example:
+- 1234 // 10 = 123
+- 123 // 10 = 12
+
+
+## Factor of a Number
+
+A number `i` is a factor of `num` if:
+
+- num % i == 0
+
+Example:
+- 12 % 3 == 0 → 3 is a factor of 12
+
+Factors of 12:
+- 1, 2, 3, 4, 6, 12
+
+
+## Multiplication Table
+
+- Result = Number × Multiplier
+
+Example:
+- 7 × 3 = 21
+
+Python:
+- result = num * i
+
+
+## Power Using Repeated Multiplication
+
+- Result = Base × Base × ... × Base
+
+The base is multiplied by itself `exponent` times.
+
+Example:
+- 3⁴ = 3 × 3 × 3 × 3 = 81
+
+Python:
+- result *= base
+
+
+## Remainder
+
+- Remainder = Number % Divisor
+
+Example:
+- 17 % 5 = 2
+
+Common Uses:
+- Checking even/odd numbers
+- Finding the last digit
+- Checking factors
+
+
+## Integer Division
+
+- Quotient = Number // Divisor
+
+Example:
+- 17 // 5 = 3
+
+Common Use:
+- Removing the last digit:
+  - 1234 // 10 = 123
