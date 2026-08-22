@@ -115,7 +115,7 @@ Example:
 - EUR = INR / 90.20
 - GBP = INR / 105.30
 - JPY = INR / 0.56
-
+- not standard valves
 ## Triangle
 
 ### Triangle Validity
