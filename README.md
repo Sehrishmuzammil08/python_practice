@@ -35,7 +35,9 @@
 
   * Operators in Python
 
-* Conditional statements(NOTES + Coodes) 
+* Conditional statements(NOTES + Coodes)
+
+* Loops(NOTES + Coodes)
 
 
 ## 🎯 Goal
