@@ -37,7 +37,9 @@
 
 * Conditional statements(NOTES + Coodes)
 
-* Loops(NOTES + Coodes)
+* While Loop(NOTES + Coodes)
+
+* For Loop(NOTES + Coodes)
 
 
 ## 🎯 Goal
