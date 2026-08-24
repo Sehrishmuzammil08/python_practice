@@ -202,3 +202,67 @@ Built-in functions are functions that are already provided by Python. We can use
 | `abs()`    | Get absolute value  | `abs(-5)`           |
 | `round()`  | Round a number      | `round(3.14159, 2)` |
 
+
+
+## Lambda Function
+
+A lambda function is a small, anonymous function defined using the `lambda` keyword. It can take multiple arguments but contains only one expression.
+
+### Syntax
+
+```python
+lambda arguments: expression
+```
+
+### Example
+
+```python
+square = lambda x: x * x
+
+print(square(5))
+```
+
+**Output:**
+
+```text
+25
+```
+
+### Lambda with Multiple Arguments
+
+```python
+multiply = lambda a, b: a * b
+
+print(multiply(4, 5))
+```
+
+**Output:**
+
+```text
+20
+```
+
+### Important Points
+
+* `lambda` is used to create a small function.
+* A lambda function can take multiple arguments.
+* It contains only one expression.
+* The expression's result is automatically returned.
+* Lambda functions are useful for simple and short operations.
+
+### Normal Function vs Lambda
+
+**Normal Function:**
+
+```python
+def square(x):
+    return x * x
+```
+
+**Lambda Function:**
+
+```python
+square = lambda x: x * x
+```
+
+Both functions calculate the square of a number.
