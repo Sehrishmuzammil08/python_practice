@@ -1,5 +1,3 @@
-# Python While Loop
-
 ## 1. Introduction to Loops
 
 A **loop** is a programming structure that allows a block of code to execute repeatedly based on a condition. Loops help automate repetitive tasks instead of writing the same code multiple times.
@@ -15,7 +13,18 @@ A **loop** is a programming structure that allows a block of code to execute rep
 * `for` loop
 * `while` loop
 
+## Nested Loops
+
+A nested loop is `a loop inside another loop`. The `outer loop runs first`, and for every iteration of the outer loop, `the inner loop runs completely`.
+
+Nested loops are commonly used for:
+- Patterns
+- Tables
+- Grids
+- Repeated structures
 ---
+
+# While loop
 
 ## 2. What is a While Loop?
 
