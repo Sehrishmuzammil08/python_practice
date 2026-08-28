@@ -121,7 +121,7 @@ print(f"Reverse string: {text[::-1]}")    # gnimmargorP nohtyP
 First character: P
 Last character: g
 Second last: n
-Every 2nd char between 1-9: yhnP
+Every 2nd char between 1-9: yhn
 First 6 chars: Python
 From index 7: Programming
 Chars 7-18: Programming
@@ -236,3 +236,41 @@ Raw string: C:\new_folder\test.txt
 - `[start:stop:step]` slicing works the same on any sequence, and `[::-1]` reverses a string.
 - `.strip() / .lstrip() / .rstrip()` clean unwanted characters or whitespace from the ends.
 - `r"..."` raw strings stop `\n`, `\t`, `\\` etc. from being treated as escape sequences — handy for file paths.
+
+
+## String Quick Reference Table
+
+| Operation / Method    | Syntax         | Purpose| Example|
+| --------------------- | ----------------- | ----------------------------------- | ------------------------------- |
+| **Create String**     | `"text"`       | Creates a string| `"Hello"`|
+| **String Type**       | `type(text)`   | Checks data type| `type("Hi")` → `str`|
+| **String Length**     | `len(text)`    | Finds number of characters| `len("Hello")` → `5`|
+| **Concatenation**     | `str1 + str2`  | Joins strings| `"Hello" + " World"`|
+| **Repetition**        | `text * n`     | Repeats a string| `"Hi" * 3` → `HiHiHi`|
+| **Indexing**          | `text[index]`  | Accesses one character| `text[0]`|
+| **Negative Indexing** | `text[-1]`     | Accesses from the end| `text[-1]`|
+| **Slicing**           | `text[start:stop]`| Extracts part of a string| `text[0:5]`|
+| **Slicing with Step** | `text[start:stop:step]`| Extracts with a step| `text[::2]`|
+| **Reverse**           | `text[::-1]`   | Reverses the string| `"Python"[::-1]`|
+| **Lowercase**         | `text.lower()` | Converts to lowercase| `"HELLO".lower()`|
+| **Uppercase**         | `text.upper()` | Converts to uppercase| `"hello".upper()`|
+| **Title Case**        | `text.title()` | Capitalizes each word| `"hello world".title()`|
+| **Capitalize**        | `text.capitalize()`| Capitalizes first character| `"hello".capitalize()`|
+| **Swap Case**         | `text.swapcase()`| Changes upper ↔ lower| `"Hello".swapcase()`|
+| **Strip**             | `text.strip()` | Removes whitespace from both ends| `" Hello ".strip()`|
+| **Left Strip**        | `text.lstrip()`| Removes from left side| `" Hello".lstrip()`|
+| **Right Strip**       | `text.rstrip()`| Removes from right side| `"Hello ".rstrip()`|
+| **Replace**           | `text.replace(old, new)` | Replaces text| `"cat".replace("cat","dog")` |
+| **Find**              | `text.find(value)` | Finds position of substring| `"Hello".find("e")` → `1`|
+| **Count**             | `text.count(value)`| Counts occurrences| `"Hello".count("l")` → `2`|
+| **Split**             | `text.split()`| Splits string into a list| `"A B C".split()`|
+| **Join**              | `separator.join(list)`| Joins list items into a string| `"-".join(["A","B"])`|
+| **Starts With**       | `text.startswith(value)` | Checks beginning| `"Python".startswith("Py")`|
+| **Ends With**         | `text.endswith(value)`   | Checks ending| `"file.py".endswith(".py")`|
+| **Contains**          | `value in text`| Checks if text exists| `"Py" in "Python"`|
+| **Only Letters**      | `text.isalpha()`| Checks whether all characters are letters | `"Hello".isalpha()`|
+| **Only Digits**       | `text.isdigit()`| Checks whether all characters are digits  | `"123".isdigit()`|
+| **String Conversion** | `str(value)`| Converts value to string| `str(123)` → `"123"`|
+| **F-String**          | `f"{variable}"`| Formats variables inside strings| `f"Age: {age}"`|
+| **Raw String**        | `r"text"`| Treats backslashes literally| `r"C:\new_folder"`|
+| **Palindrome Check**  | `text == text[::-1]`| Checks if string reads same backward| `"radar" == "radar"[::-1]`|
