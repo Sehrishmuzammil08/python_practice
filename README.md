@@ -45,6 +45,20 @@
 
 * Strings in python(NOTES + Codes)
 
+* Lists in python(NOTES + Codes)
+  
+* Sets in python(NOTES + Codes)
+
+* Tuple in python(NOTES + Codes)
+  
+* Dictionary in python(NOTES + Codes)
+  
+* Problem Solving & Algorithms(NOTES + Codes)
+  
+* Pseudo code(NOTES + Codes)
+  
+* Searching Algoritms(NOTES + Codes)
+
 
 ## 🎯 Goal
 
