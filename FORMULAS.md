@@ -298,3 +298,15 @@ Example:
 Common Use:
 - Removing the last digit:
   - 1234 // 10 = 123
+ 
+
+
+# Searching Algorithms:
+
+- Binary Search Middle Index: `mid = (low + high) // 2`
+
+# List Examples:
+
+- Average of numbers: `average = total / len(numbers)`
+
+- Prime check range: `range(2, int(n**0.5) + 1)`
