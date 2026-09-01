@@ -1,4 +1,4 @@
-# Searching Algorithms - Notes
+# Searching Algorithms 
 
 ## 1. Linear Search
 
