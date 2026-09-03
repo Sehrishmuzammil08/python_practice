@@ -14,7 +14,7 @@ print(f"Type: {type(fruits)}")
 Set: {'cherry', 'banana', 'apple'}
 Type: <class 'set'>
 ```
-> ⚠️ Sets are **unordered** — the printed order of elements can be different each time you run the code. Don't rely on it.
+>  Sets are **unordered** — the printed order of elements can be different each time you run the code. Don't rely on it.
 
 ---
 
