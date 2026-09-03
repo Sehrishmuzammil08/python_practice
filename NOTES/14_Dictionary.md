@@ -90,7 +90,7 @@ Alice
 None
 Unknown
 ```
-> ⚠️ `person["city"]` raises a `KeyError` if the key doesn't exist. `person.get("city")` returns `None` instead (or a default you supply) — much safer when you're not sure the key is there.
+> `person["city"]` raises a `KeyError` if the key doesn't exist. `person.get("city")` returns `None` instead (or a default you supply) — much safer when you're not sure the key is there.
 
 ---
 
