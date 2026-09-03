@@ -58,7 +58,7 @@ Python is popular because it is easy to understand and has many real-world appli
 
 ---
 
-## 🔑 Python Keywords
+##  Python Keywords
 
 Keywords are reserved words that have special meanings.
 
