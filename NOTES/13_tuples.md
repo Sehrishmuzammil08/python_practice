@@ -75,7 +75,7 @@ Numbers: (1, 2, 3, 4, 5)
 Fruits: ('apple', 'banana', 'orange')
 Mixed: (1, 'hello', 3.14, True)
 ```
-> ⚠️ `(5)` is just the integer `5` in parentheses. You need a trailing comma — `(5,)` — to make a one-element tuple.
+>  `(5)` is just the integer `5` in parentheses. You need a trailing comma — `(5,)` — to make a one-element tuple.
 
 ### Method 2: `tuple()` Constructor
 ```python
